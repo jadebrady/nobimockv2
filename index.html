@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOBI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <style>
+/* .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+} */
+*{
+  font-family: 'Montserrat', sans-serif;
+
+}
+@media (min-width:990px){
+  #title-lg{
+    visibility: visible;
+
+  }
+  #title-sm{
+    visibility: hidden;
+    display: none !important;
+  }
+  
+}
+@media(max-width:990px){
+  #title-sm{
+    visibility: visible;
+  }
+  #title-lg{
+    visibility: hidden;
+    display: none !important;
+  }
+}
+  </style>
+
+</head>
+
+<body>
+  <!-- Title -->
+  <div id="title-lg">
+  <section id="title">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1 text-body-emphasis">NOBI</h1>
+        <p class="lead">Underwear made for you to look & feel the <em>you-est</em> you.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" style="background-color: #AEA097; border-color: #AEA097;">Shop</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">About us</button>
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-2" src="./nobi1.png" alt="nobi underwear" width="650">
+      </div>
+    </div>
+  </div>
+  <div id=title-sm>
+    <div class="container col-xxl-8 px-4 py-5 align-items-center">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./nobi1.png" class="d-block mx-xl-auto img-fluid " alt="Nobi-promo" width="1080" height="1080" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">NOBI</h1>
+          <p class="lead">Underwear made for you to look & feel the <em>you-est</em> you.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" style="background-color: #AEA097; border-color: #AEA097;">Shop</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">More Info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+  <!-- Features -->
+  <section id="features">
+    <!-- <div class="row row-cols-1 row-cols-lg-3 align-items-center g-3 py-5 mx-4 my-2">
+      <div class="col">
+        <div class="card card-cover h-150 text-bg-dark rounded-4 shadow-lg" style="background-image: url('./nobibrown.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-5 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" style="color: #AEA097;">Cocoa</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-150 text-bg-dark rounded-4 shadow-lg" style="background-image: url('./nobiwhite.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-5 text-white text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" style="color: #AEA097;">Ivory</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card card-cover h-150 text-bg-dark rounded-4 shadow-lg" style="background-image: url('./nobiblack.png');">
+          <div class="d-flex flex-column h-100 p-5 pb-5 text-shadow-1">
+            <h3 class="pt-5 mt-5 mb-5 display-6 lh-1 fw-bold" style="color:#AEA097">Onyx</h3>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="album py-5 bg-body-tertiary">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm rounded-5">
+              <img src="./nobiblack.png" class="rounded-5">
+              <div class="card-body">
+                <p class="card-text">Onyx</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">XS</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
+                  </div>
+                  <small class="text-body-secondary">$33.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm rounded-5">
+              <img src="./nobiwhite.png" class="rounded-5">
+              <div class="card-body">
+                <p class="card-text">Ivory</p>
+                <div class="d-flex justify-content-between align-items-center" >
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">XS</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
+                  </div>
+                  <small class="text-body-secondary">$33.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm rounded-5">
+              <img src="./nobibrown.png" class="rounded-5">
+              <div class="card-body">
+                <p class="card-text">Cocoa</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">XS</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">S</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">M</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">L</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">XL</button>
+                  </div>
+                  <small class="text-body-secondary">$33.00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+    
+          
+  </section>
+  <!-- Testimonial -->
+  <section id="testimonial">
+    <div class="container my-5">
+      <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <svg class="bi mt-1 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
+        <h1 class="text-body-emphasis">"Like wearing clouds, never felt so comfortable in any other underwear"</h1>
+        <img src="./nobiblack.png" style="width:120px; height:120px; border-radius:60px">
+        <p class="col-lg-8 mx-auto fs-5 text-muted">
+          Jade, Tamborine Mountain
+        </p>
+      
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container py-3">
+      <header>
+    
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+          <p class="fs-5 text-body-secondary">Compare our pre-sale undie bundles 💓</p>
+        </div>
+      </header>
+    
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">1 Pair</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$26.90<small class="text-body-secondary fw-light" style="text-decoration: line-through;"> $33.00 </small></h1>
+                <h4 style="color: #AEA097; font-weight: 300;">Exclusive pre-sale discount</h4>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>1 pair of the comfiest NOBI underwear</li>
+                  <li><em>You</em> decide <em>your</em> colour</li>
+                  <li>Available on AfterPay</li>
+                  <li>Lounge in comfort and style</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-outline-primary" style="border-color: #AEA097; color: #AEA097; background-color: transparent;">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">Full Set</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$79.20<small class="text-body-secondary fw-light" style="text-decoration: line-through;"> $99.00</small></h1>
+                <h4 style="color: #AEA097; font-weight: 300;">Exclusive pre-sale discount</h4>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>3 pairs of NOBI underwear</li>
+                  <li>1 pair in each of our ICONIC colours</li>
+                  <li>Available on AfterPay</li>
+                  <li>A colour-way to match any vibe</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary" style="border-color: #AEA097; color: #AEA097; background-color: transparent;">Buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-lg" style="border-color: #AEA097;">
+              <div class="card-header py-3 text-bg" style="background-color: #AEA097;">
+                <h4 class="my-0 fw-bold">NOBI V.I.P</h4>
+              </div>
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title">$184.80<small class="text-body-secondary fw-light" style="text-decoration: line-through;"> $231.00</small></h1>
+                <h4 style="color: #AEA097; font-weight: 300;">Exclusive pre-sale discount</h4>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>7 pairs of cloud-like NOBI underwear</li>
+                  <li>Mix 'n' match <em>your</em> favourite colours</li>
+                  <li>Available on AfterPay</li>
+                  <li>FREE SHIPPING</li>
+                </ul>
+                <button type="button" class="w-100 btn btn-lg btn-primary" style="background-color: #AEA097; border-color: #AEA097;">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+     </section>
+  <!-- Footer -->
+    <section id="footer">
+      <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mx-5" src="./nobiclo.png" alt="nobi brand logo" width="50" height="50">
+            <small class="d-block mx-5 text-body-secondary">© 2023</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff for developers</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another one</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another resource</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a></li>
+              <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+ 
+
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+
+</html>
